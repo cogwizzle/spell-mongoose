@@ -5,8 +5,7 @@ module.exports = (dbName, fileName) => {
     .replace(':import:', 'const mongoose = require("mongoose");')
     .replace(
       ':connection:',
-      `mongoose.connect("mongodb://localhost/${dbName}").then(() => {`
+      `mongoose.connect("mongodb://127.0.0.1:27017/${dbName}")`
     )
-    .replace(':endConnection:', '})')
   fs.writeFileSync(fileName, content)
 }
