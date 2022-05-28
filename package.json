@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "pascal-case": "^3.1.2"
+  },
+  "name": "spell-mongoose",
+  "description": "Summon spells for connecting to databases and creating schemas.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cogwizzle/spell-mongoose.git"
+  },
+  "author": "Cogwizzle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cogwizzle/spell-mongoose/issues"
+  },
+  "homepage": "https://github.com/cogwizzle/spell-mongoose#readme"
+}
